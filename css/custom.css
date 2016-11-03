@@ -39,6 +39,8 @@ code{padding:10px;background: #fff;margin:0 0 10px 0;display: block}
 
 .navbar{min-height:70px;margin: 0;}
 
+.navbar-default .navbar-toggle {border-color: #999}
+.navbar-default .navbar-toggle .icon-bar{background: #555}
 
 #navbar a{ font-weight: 400; letter-spacing: 1px;}
 
@@ -84,10 +86,13 @@ color:#fff;
 #foot hr{margin: 0 0 10px 0}
 #foot .links{margin:50px 0 0px 0}
 
-#foot .iohk_qeditas_link{font-size:250%;color:#555;font-weight:200;letter-spacing:-.02em}
+#foot .iohk_qeditas_link{font-size:250%;color:#555;font-weight:200;letter-spacing:-.02em;text-decoration:none}
 #foot .iohk_qeditas_link .red{color:#f00}
 #foot .iohk_link img{margin:10px 0 0 0}
 
-
-
 #foot .navbar-nav li a {padding:0px 10px 25px 10px;color:#555}
+
+
+@media (max-width:768px){
+#foot .navbar-nav li a{padding:0 0 5px 10px}
+}
