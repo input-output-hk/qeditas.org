@@ -64,14 +64,37 @@ code{padding:10px;background: #fff;margin:0 0 10px 0;display: block}
 #navbar #navhider a{padding:28px 15px;}
 }
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 90%}
+    50%{background-position:100% 11%}
+    100%{background-position:0% 90%}
+}
 
 #top{padding:2em;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fcfc00+0,ff2e00+100 */
-background: #fcfc00; /* Old browsers */
-background: -moz-linear-gradient(-45deg, #fcfc00 0%, #ff2e00 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg, #fcfc00 0%,#ff2e00 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg, #fcfc00 0%,#ff2e00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfc00', endColorstr='#ff2e00',GradientType=1 );
+  background: linear-gradient(308deg, #f71212, #1290f7);
+ background-size: 100% 100%;
+
+ -webkit-animation: AnimationName 18s ease infinite;
+ -moz-animation: AnimationName 18s ease infinite;
+ -o-animation: AnimationName 18s ease infinite;
+ animation: AnimationName 18s ease infinite;
+
+
 color:#fff;
 }
 
