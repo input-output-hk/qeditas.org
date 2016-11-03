@@ -1,0 +1,51 @@
+---
+layout: page-home
+---
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div id="top" class="top banner text-center">
+        <div class="container">
+
+
+            <div class="entry">
+                <img src="/images/brain.png" width="180" height="210" />
+                <h2>Bitcoin is for money, Ethereum is for computation, Qeditas is for deduction</h2>
+                <p>Qeditas is a project to apply block chain technology to support the construction of a library of formalized mathematics.
+                  <br />It is intended to be a realization (or possibly revival) of the QED project, as described in the QED Manifesto.</p>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+    <div id="middle" class="middle">
+        <div id="main" class="container">
+              <div class=" fader">
+                  <div class="post">
+                      <div class="entry" title="{{ page.title }}">
+                          <div class="text text-center">
+
+                              {{ content }}
+                              <br><br><br>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

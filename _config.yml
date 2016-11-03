@@ -1,0 +1,10 @@
+title: Qeditas
+description: Qeditas Project
+baseurl: ""
+url: "http://qeditas.org"
+include: ["_pages"]
+permalink: /:title
+twitter_username: Blank
+
+markdown: kramdown
+array: []
